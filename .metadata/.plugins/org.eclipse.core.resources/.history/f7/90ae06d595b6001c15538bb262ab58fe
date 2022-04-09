@@ -1,0 +1,67 @@
+package exerciciosjava;
+import java.util.Scanner;
+public class exercicio8 {
+
+	private static final String N = null;
+
+	public static void main(String[] args) {
+		
+
+		String nome;
+		String sexo;
+		double peso = 0;
+		int idade = 0;
+		double altura = 0;
+		int quantidade = 0;
+		int total = 0;
+		String continuar = null;
+		Scanner scan = new Scanner(System.in);
+		
+		
+		while(quantidade<=10) {
+			
+			System.out.println("Qual o seu nome ?");
+			scan.next();
+			System.out.println("Qual o seu sexo (F/M) ? ");
+			sexo = scan.next();
+			System.out.println("Qual o seu peso ?");
+			peso = scan.nextDouble();
+			System.out.println("Qual sua idade ?");
+			idade = scan.nextInt();
+			System.out.println("Qual sua altura ?");
+			altura = scan.nextDouble();
+			quantidade++;
+			System.out.println("Deseja continuar ? (S/N)");
+			continuar = scan.next();
+			if(continuar==N) {
+				System.out.println("A quantidade de pessoas é: " + quantidade);
+				return;
+				
+			}
+				
+				
+				
+				
+				
+				
+				
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
