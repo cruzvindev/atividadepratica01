@@ -64,11 +64,11 @@ public class exercicio8 {
 					}
 				}
 			}
-			System.out.println("-=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=-");
+			System.out.println("---------------------------------------");
 		}
 		System.out.println("Quantidade de pacientes: " + contPacientes);
 		double mediaHomens = (somaHomens/contHomens);
-		System.out.println("Média de idade dos homens: " + mediaHomens);
+		System.out.println("MÃ©dia de idade dos homens: " + mediaHomens);
 		System.out.println("Quantidade de mulheres com altura entre 1,60 e 1,70 e peso acima de 70kg: " +contMulheres);
 		System.out.println("Quantidade de pessoas com idade entre 18 e 25: " + quantNovos);
 		System.out.println("Nome do paciente mais velho: " + velho);
